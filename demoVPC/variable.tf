@@ -6,3 +6,12 @@ variable "DEP_ENV"{
 		error_message = "Deployment allowed in dev and prod."
 	}
 }
+
+variable "vpc_name"{
+	type = string
+}
+variable "subnet_name"{
+	type = string
+}
+
+
